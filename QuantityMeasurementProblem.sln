@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantityMeasurementProblem", "QuantityMeasurementProblem\QuantityMeasurementProblem.csproj", "{9E8A2205-75DE-4CC0-9F73-2E3222A8DE82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantityMeasurementTest", "QuantityMeasurementTest\QuantityMeasurementTest.csproj", "{CFE25681-0957-4D8A-95A1-D8C194CE8E24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantityMeasurementTest", "QuantityMeasurementTest\QuantityMeasurementTest.csproj", "{39CC32FF-797A-4897-B0BC-17433BEC2387}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{9E8A2205-75DE-4CC0-9F73-2E3222A8DE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E8A2205-75DE-4CC0-9F73-2E3222A8DE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E8A2205-75DE-4CC0-9F73-2E3222A8DE82}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CFE25681-0957-4D8A-95A1-D8C194CE8E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFE25681-0957-4D8A-95A1-D8C194CE8E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFE25681-0957-4D8A-95A1-D8C194CE8E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFE25681-0957-4D8A-95A1-D8C194CE8E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CC32FF-797A-4897-B0BC-17433BEC2387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CC32FF-797A-4897-B0BC-17433BEC2387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CC32FF-797A-4897-B0BC-17433BEC2387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CC32FF-797A-4897-B0BC-17433BEC2387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

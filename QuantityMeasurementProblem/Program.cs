@@ -7,8 +7,6 @@ namespace QuantityMeasurementProblem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Quantity Measurement");
-
-            
         }
     }
 }
