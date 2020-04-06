@@ -6,10 +6,12 @@ namespace QuantityMeasurementProblem
 {
     public class Converstion
     {
-        public int measure(int feet)
+        public int  measure(int feet)
         {
-            return feet =  feet*12 ;
+            int inch;
+            
+            return inch = feet * 12;
+            
         }
-        
     }
 }
