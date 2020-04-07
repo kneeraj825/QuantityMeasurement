@@ -10,8 +10,7 @@ namespace QuantityMeasurementTest
         public void Test1()
         {
             Converstion converstion = new Converstion();
-            Assert.AreEqual(24,converstion.measure(2));
-            
+            Assert.AreEqual(24,converstion.measure(2));  
         }
         [Test]
         public void Test2()

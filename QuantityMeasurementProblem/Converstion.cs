@@ -9,9 +9,7 @@ namespace QuantityMeasurementProblem
         public int  measure(int feet)
         {
             int inch;
-            
             return inch = feet * 12;
-            
         }
     }
 }
