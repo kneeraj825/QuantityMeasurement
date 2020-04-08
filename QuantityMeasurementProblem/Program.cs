@@ -17,6 +17,7 @@ namespace QuantityMeasurementProblem
             System.Console.WriteLine("ReferenceEquals(value1, value2) = {0}", areEqual);
             // for the type check returns true
             Console.WriteLine("value1 and value2 are the same type: {0}",
+                Object.ReferenceEquals(returnequal.GetType(), returnequal2.GetType()));
         }
     }
 }
