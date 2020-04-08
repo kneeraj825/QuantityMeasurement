@@ -6,7 +6,7 @@ namespace QuantityMeasurementProblem
 {
     class ReturnEqual
     {
-        public int feet {get; set;}
+        public int inch { get; set; }
         public override bool Equals(object obj)
         {
             if (obj == null)
@@ -17,12 +17,11 @@ namespace QuantityMeasurementProblem
             {
                 return false;
             }
-            return this.feet == ((ReturnEqual)obj).feet && this.feet == ((ReturnEqual)obj).feet;
-
+            return this.inch == ((ReturnEqual)obj).inch && this.inch == ((ReturnEqual)obj).inch;
         }
         public override int GetHashCode()
         {
-            return this.feet.GetHashCode() ^ this.feet.GetHashCode(); 
+            return this.inch.GetHashCode() ^ this.inch.GetHashCode();
         }
     }
 }
