@@ -2,7 +2,7 @@ using NUnit.Framework;
 using QuantityMeasurementProblem;
 
 namespace QuantityMeasurementTest
-{
+{ 
     [TestFixture]
     public class Feet_Converstion
     {
@@ -50,6 +50,35 @@ namespace QuantityMeasurementTest
         {
             Converstion converstion = new Converstion();
             Assert.AreEqual(0, converstion.measure4(0));
+        }
+        // 1 feet is equal to 12 inch
+        [Test]
+        public void Feet_To_Inch()
+        {
+            Converstion converstion = new Converstion();
+            Assert.AreEqual(12, converstion.measure(1));
+        }
+        // 12 inch is equal to 1 feet
+        [Test]
+        public void Inch_To_Feet()
+        {
+            Converstion converstion = new Converstion();
+            Assert.AreEqual(1, converstion.measure1(12));
+        }
+
+        // 1 inch != 1 feet
+        [Test]
+        public void Inch_Not_Equal_Feet()
+        {
+            Converstion converstion = new Converstion();
+            Assert.AreEqual(1, converstion.measure(1));
+        }
+        // 1 feet ! = 1 inch
+        [Test]
+        public void Feet_Not_Equal_To_Inch()
+        {
+            Converstion converstion = new Converstion();
+            Assert.AreEqual(1, converstion.measure1(1));
         }
     }
 }
